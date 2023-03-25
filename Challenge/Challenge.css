@@ -1,0 +1,115 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'manrope', sans-serif;
+    font-size: 13px;
+}
+.satu{
+  display: flex;
+  background-color: white;
+  flex-direction : row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 55%;
+  height: 250px;
+  margin: auto;
+  margin-top: 250px;
+}
+.satu img {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.dua{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.tiga{
+  display: flex;
+  flex-direction: row;
+}
+.tiga img{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.tiga .profile{
+  display: flex;
+  justify-content: right;
+}
+.tiga .profile img{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.tiga .nama{
+  padding-left: 10px;
+}
+.tiga .button {
+  padding-left: 300px ;
+  padding-top :10px;
+}
+.tiga .button .btn{
+  border-radius: 100%;
+  background-color: hsl(210, 46%, 95%);
+  border: none;
+  padding: 8px;
+}
+.tiga .button .btn img {
+  width: 15px;
+  height: 15px;
+}
+@media screen and (max-width: 1439px) {
+  .satu {
+    margin-top: 0;
+    width: 70%;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .satu img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .dua {
+    width: 90%;
+    padding-top: 0;
+    padding-left: 20px;
+    color: hsl(217, 19%, 35%);
+  }
+  .tiga{
+    align-items: center;
+  }
+
+  .tiga img {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+  }
+  .tiga .profile img{
+    margin-top: 40px;
+  }
+  .tiga .nama{
+    column-gap: 100px;
+  }
+  .tiga .button {
+    padding-left: 100px;
+  }
+
+  .tiga .button img {
+    border-radius: 0;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
+}
+
+
+  
